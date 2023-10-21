@@ -1,14 +1,8 @@
 {
-    "name": "oscar-rey/laravel-mercado-pago",
+    "name": "retrypay/laravel-mercado-pago",
     "description": "Paquete de mercado pago para laravel.",
     "type": "library",
-    "authors": [
-        {
-            "name": "Oscar Rey",
-            "email": "oscarhumberto1311@gmail.com"
-        }
-    ],
-    "homepage": "https://github.com/oscar-rey-mosquera/laravel-mercado-pago",
+    "homepage": "https://github.com/retrypay/laravel-mercado-pago",
     "keywords": [
         "Laravel",
         "laravel-mercado-pago",
@@ -18,7 +12,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "mercadopago/dx-php": "^2.4"
+        "mercadopago/dx-php": "^3.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "^7.5"
@@ -34,9 +28,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-          "LaravelMercadoPago\\Tests\\": "tests"
+            "LaravelMercadoPago\\Tests\\": "tests"
         }
-      },
+    },
     "extra": {
         "laravel": {
             "providers": [
